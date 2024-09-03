@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Application Form</title>
+   </head>
+<body bgColor=#095469>
+    <font color=white align=center>
+    <form>
+        <h2>Application Form</h2>
+
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName">
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName"><br><br>
+
+        <label for="dateOfBirth">Date of Birth:</label>
+        <input type="date" id="dateOfBirth" name="dateOfBirth">
+
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age"><br><br>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="">--Select--</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label>Positions Available:</label>
+        <input type="radio" name="positions" value="juniorDeveloper"> Junior Developer
+        <input type="radio" name="positions" value="midLevelDeveloper"> Mid-level Developer
+        <input type="radio" name="positions" value="seniorDeveloper"> Senior Developer<br><br>
+
+        <label>Programming Languages:</label>
+        <input type="checkbox" name="languages" value="java"> Java
+        <input type="checkbox" name="languages" value="javascript"> JavaScript
+        <input type="checkbox" name="languages" value="python"> Python<br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword"><br><br>
+
+        <input type="submit" value="Submit" style="background:#e0460c;border:none;color:white;padding:10px">
+        <input type="submit" value="Reset" style="background:#e0460c;border:none;color:white;padding:10px">
+    </form>
+    </font>
+</body>
+</html>

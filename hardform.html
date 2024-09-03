@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body bgColor=#6b5acd>
+    <font color=white>
+    <form>
+        <h2>STUDENT REGISTRATION FORM</h2>
+
+        <label for="firstName">FIRST NAME:</label>
+        <input type="text" id="firstName" name="firstName" maxlength="30"><br><br>
+
+        <label for="lastName">LAST NAME:</label>
+        <input type="text" id="lastName" name="lastName" maxlength="30"><br><br>
+
+        <label for="dateOfBirth">DATE OF BIRTH:</label>
+        <input type="date" id="dateOfBirth" name="dateOfBirth"><br><br>
+
+        <label for="email">EMAIL ID:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="mobileNumber">MOBILE NUMBER:</label>
+        <input type="number" id="mobileNumber" name="mobileNumber" maxlength="10"><br><br>
+
+        <label>GENDER:</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female<br><br>
+
+        <label for="address">ADDRESS:</label>
+        <textarea id="address" name="address"></textarea><br><br>
+
+        <label for="city">CITY:</label>
+        <input type="text" id="city" name="city" maxlength="30"><br><br>
+
+        <label for="pincode">PIN CODE:</label>
+        <input type="number" id="pincode" name="pincode" maxlength="6"><br><br>
+
+        <label for="state">STATE:</label>
+        <input type="text" id="state" name="state" maxlength="30"><br><br>
+
+        <label>COUNTRY:</label>
+        <input type="text" id="country" name="country" value="India" disabled><br><br>
+
+        <label>HOBBIES:</label>
+        <input type="checkbox" name="hobbies" value="drawing"> Drawing
+        <input type="checkbox" name="hobbies" value="singing"> Singing
+        <input type="checkbox" name="hobbies" value="dancing"> Dancing
+        <input type="checkbox" name="hobbies" value="sketching"> Sketching
+        <input type="checkbox" name="hobbies" value="others"> Others<br><br>
+
+        <label>QUALIFICATION</label>
+        <table>
+            <tr>
+                <th>S1.No.</th>
+                <th>Examination</th>
+                <th>Board</th>
+                <th>Percentage</th>
+                <th>Year of Passing</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Class X</td>
+                <td><input type="text" maxlength="10"></td>
+                <td><input type="text" maxlength="5"></td>
+                <td><input type="number" min="1900" max="2024"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Class XII</td>
+                <td><input type="text" maxlength="10"></td>
+                <td><input type="text" maxlength="5"></td>
+                <td><input type="number" min="1900" max="2024"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Graduation</td>
+                <td><input type="text" maxlength="10"></td>
+                <td><input type="text" maxlength="5"></td>
+                <td><input type="number" min="1900" max="2024"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Masters</td>
+                <td><input type="text" maxlength="10"></td>
+                <td><input type="text" maxlength="5"></td>
+                <td><input type="number" min="1900" max="2024"></td>
+            </tr>
+        </table><br><br>
+
+        <h2>COURSES APPLIED FOR</h2>
+        <input type="radio" name="courses" value="bca"> BCA
+        <input type="radio" name="courses" value="bcom"> B.Com
+        <input type="radio" name="courses" value="bsc"> B.Sc
+        <input type="radio" name="courses" value="ba"> B.A<br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</font>
+</body>
+</html>
